@@ -1,27 +1,45 @@
 {
   "users": [
     {
-      "id": "23", "firstName": "Bill", "age": 23, "companyId": "1"
+      "id": "23",
+      "firstName": "Bill",
+      "age": 23,
+      "companyId": "1"
     },
     {
-      "id": "43", "firstName": "Kobe", "age": 31, "companyId": "1"
+      "id": "43",
+      "firstName": "Koooba",
+      "age": 31,
+      "companyId": "1"
     },
     {
-      "id": "24", "firstName": "Alice", "age": 24, "companyId": "2"
+      "id": "24",
+      "firstName": "Alice",
+      "age": 24,
+      "companyId": "2"
     },
     {
-      "id": "25", "firstName": "Cathy", "age": 25, "companyId": "3"
+      "id": "25",
+      "firstName": "Cathy",
+      "age": 25,
+      "companyId": "3"
     }
   ],
   "companies": [
     {
-      "id": "1", "name": "Apple", "description": "Apple is a great company"
+      "id": "1",
+      "name": "Apple",
+      "description": "Apple is a great company"
     },
     {
-      "id": "2", "name": "Google", "description": "Google is a great company"
+      "id": "2",
+      "name": "Google",
+      "description": "Google is a great company"
     },
     {
-      "id": "3", "name": "Microsoft", "description": "Microsoft is a great company"
+      "id": "3",
+      "name": "Microsoft",
+      "description": "Microsoft is a great company"
     }
   ]
 }
