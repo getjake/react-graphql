@@ -8,7 +8,6 @@ class SongList extends Component {
     if (this.props.data.loading) {
       return <div>Loading...</div>;
     }
-    console.log(this.props.data.songs)
 
     return this.props.data.songs.map((song) => {
       return (
