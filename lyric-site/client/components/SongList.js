@@ -6,7 +6,6 @@ import query from '../queries/fetchSongs';
 
 class SongList extends Component {
   onSongDelete(id, title) {
-    console.log(`ID to delete: ${id} With title ${title}`);
     this.props
       .mutate({
         variables: {
@@ -23,7 +22,6 @@ class SongList extends Component {
     }
 
     return this.props.data.songs.map(({ title, id }) => {
-      // console.log(title, id)
       return (
         <li key={id} className='collection-item'>
           {title}
@@ -42,7 +40,7 @@ class SongList extends Component {
     return (
       <div>
         <ul className='collection'>{this.renderSongs()}</ul>
-        <Link to='/song/new' className='btn-floating btn-large red right'>
+        <Link to='/songs/new' className='btn-floating btn-large red right'>
           <i className='material-icons'>add</i>
         </Link>
       </div>
